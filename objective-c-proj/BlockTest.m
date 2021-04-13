@@ -41,4 +41,22 @@ static int static_global_var = 5;
     Block();
 }
 
+- (void) method1 {
+    __block int multiplier = 6;
+    int(^Block)(int) = ^int(int num) {
+        return num * multiplier;
+    };
+    multiplier = 4;
+    NSLog(@"result is %d", Block(2));
+}
+
+- (void) method2 {
+    int multiplier = 6;
+    int(^Block)(int) = ^int(int num) {
+        return num * multiplier;
+    };
+    multiplier = 4;
+    NSLog(@"result is %d", Block(2));
+}
+
 @end

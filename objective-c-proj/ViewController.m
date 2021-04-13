@@ -18,8 +18,8 @@
     [super viewDidLoad];
  
     BlockTest *block = [[BlockTest alloc] init];
-    
     [block method];
+    [block method1];
 }
 
 
