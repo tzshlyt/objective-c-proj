@@ -15,6 +15,7 @@
 		3FEFE6612625475B00A8AA73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEFE65F2625475B00A8AA73 /* LaunchScreen.storyboard */; };
 		3FEFE6642625475B00A8AA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6632625475B00A8AA73 /* main.m */; };
 		3FEFE66D262547C800A8AA73 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE66C262547C800A8AA73 /* BlockTest.m */; };
+		3FEFE6752626887B00A8AA73 /* GCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6742626887B00A8AA73 /* GCDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		3FEFE6632625475B00A8AA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FEFE66B262547C800A8AA73 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 		3FEFE66C262547C800A8AA73 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
+		3FEFE6732626887B00A8AA73 /* GCDTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTest.h; sourceTree = "<group>"; };
+		3FEFE6742626887B00A8AA73 /* GCDTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				3FEFE6582625475800A8AA73 /* ViewController.m */,
 				3FEFE66B262547C800A8AA73 /* BlockTest.h */,
 				3FEFE66C262547C800A8AA73 /* BlockTest.m */,
+				3FEFE6732626887B00A8AA73 /* GCDTest.h */,
+				3FEFE6742626887B00A8AA73 /* GCDTest.m */,
 				3FEFE65A2625475800A8AA73 /* Main.storyboard */,
 				3FEFE65D2625475B00A8AA73 /* Assets.xcassets */,
 				3FEFE65F2625475B00A8AA73 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEFE6752626887B00A8AA73 /* GCDTest.m in Sources */,
 				3FEFE6592625475800A8AA73 /* ViewController.m in Sources */,
 				3FEFE6532625475800A8AA73 /* AppDelegate.m in Sources */,
 				3FEFE66D262547C800A8AA73 /* BlockTest.m in Sources */,

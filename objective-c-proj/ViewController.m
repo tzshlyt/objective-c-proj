@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "BlockTest.h"
+#import "GCDTest.h"
 
 @interface ViewController ()
 
@@ -21,6 +22,9 @@
     [block method];
     [block method1];
     [block method3];
+    
+    GCDTest *gcdTest = [[GCDTest alloc] init];
+    [gcdTest test];
 }
 
 
