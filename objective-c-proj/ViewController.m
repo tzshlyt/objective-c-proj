@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "BlockTest.h"
 #import "GCDTest.h"
+#import "RunLoopTest.h"
 
 @interface ViewController ()
 
@@ -25,6 +26,8 @@
     
     GCDTest *gcdTest = [[GCDTest alloc] init];
     [gcdTest test];
+    
+    [RunLoopTest test];
 }
 
 

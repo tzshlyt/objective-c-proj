@@ -16,6 +16,8 @@
 		3FEFE6642625475B00A8AA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6632625475B00A8AA73 /* main.m */; };
 		3FEFE66D262547C800A8AA73 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE66C262547C800A8AA73 /* BlockTest.m */; };
 		3FEFE6752626887B00A8AA73 /* GCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6742626887B00A8AA73 /* GCDTest.m */; };
+		3FEFE6792626943F00A8AA73 /* UserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6782626943F00A8AA73 /* UserCenter.m */; };
+		3FEFE67D26270CC000A8AA73 /* RunLoopTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE67C26270CC000A8AA73 /* RunLoopTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		3FEFE66C262547C800A8AA73 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 		3FEFE6732626887B00A8AA73 /* GCDTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTest.h; sourceTree = "<group>"; };
 		3FEFE6742626887B00A8AA73 /* GCDTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTest.m; sourceTree = "<group>"; };
+		3FEFE6772626943F00A8AA73 /* UserCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserCenter.h; sourceTree = "<group>"; };
+		3FEFE6782626943F00A8AA73 /* UserCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCenter.m; sourceTree = "<group>"; };
+		3FEFE67B26270CC000A8AA73 /* RunLoopTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopTest.h; sourceTree = "<group>"; };
+		3FEFE67C26270CC000A8AA73 /* RunLoopTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 				3FEFE66C262547C800A8AA73 /* BlockTest.m */,
 				3FEFE6732626887B00A8AA73 /* GCDTest.h */,
 				3FEFE6742626887B00A8AA73 /* GCDTest.m */,
+				3FEFE6772626943F00A8AA73 /* UserCenter.h */,
+				3FEFE6782626943F00A8AA73 /* UserCenter.m */,
+				3FEFE67B26270CC000A8AA73 /* RunLoopTest.h */,
+				3FEFE67C26270CC000A8AA73 /* RunLoopTest.m */,
 				3FEFE65A2625475800A8AA73 /* Main.storyboard */,
 				3FEFE65D2625475B00A8AA73 /* Assets.xcassets */,
 				3FEFE65F2625475B00A8AA73 /* LaunchScreen.storyboard */,
@@ -161,6 +171,8 @@
 				3FEFE66D262547C800A8AA73 /* BlockTest.m in Sources */,
 				3FEFE6642625475B00A8AA73 /* main.m in Sources */,
 				3FEFE6562625475800A8AA73 /* SceneDelegate.m in Sources */,
+				3FEFE6792626943F00A8AA73 /* UserCenter.m in Sources */,
+				3FEFE67D26270CC000A8AA73 /* RunLoopTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
