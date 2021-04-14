@@ -7,6 +7,12 @@
 
 #import "BlockTest.h"
 
+@interface BlockTest() {
+    int (^_blk)(int);
+}
+
+@end
+
 @implementation BlockTest
 
 // 全局变量
@@ -57,6 +63,20 @@ static int static_global_var = 5;
     };
     multiplier = 4;
     NSLog(@"result is %d", Block(2));
+}
+
+- (void) method3 {
+    __block int mutiplier = 10;
+    _blk = ^int(int num) {
+        return num * mutiplier;
+    };
+    mutiplier = 6;
+    [self executeBlock];
+}
+
+- (void)executeBlock {
+    int result = _blk(4);
+    NSLog(@"result is %d", result);
 }
 
 @end

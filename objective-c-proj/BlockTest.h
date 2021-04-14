@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void) method;
 - (void) method1;
+- (void) method3;
 
 @end
 
