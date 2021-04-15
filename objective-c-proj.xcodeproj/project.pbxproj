@@ -18,6 +18,8 @@
 		3FEFE6752626887B00A8AA73 /* GCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6742626887B00A8AA73 /* GCDTest.m */; };
 		3FEFE6792626943F00A8AA73 /* UserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6782626943F00A8AA73 /* UserCenter.m */; };
 		3FEFE67D26270CC000A8AA73 /* RunLoopTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE67C26270CC000A8AA73 /* RunLoopTest.m */; };
+		3FEFE6B42627E75500A8AA73 /* Mobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6B12627E75500A8AA73 /* Mobile.m */; };
+		3FEFE6B52627E75500A8AA73 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6B22627E75500A8AA73 /* Phone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,10 @@
 		3FEFE6782626943F00A8AA73 /* UserCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCenter.m; sourceTree = "<group>"; };
 		3FEFE67B26270CC000A8AA73 /* RunLoopTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopTest.h; sourceTree = "<group>"; };
 		3FEFE67C26270CC000A8AA73 /* RunLoopTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopTest.m; sourceTree = "<group>"; };
+		3FEFE6B02627E75500A8AA73 /* Mobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobile.h; sourceTree = "<group>"; };
+		3FEFE6B12627E75500A8AA73 /* Mobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mobile.m; sourceTree = "<group>"; };
+		3FEFE6B22627E75500A8AA73 /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		3FEFE6B32627E75500A8AA73 /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,20 +79,16 @@
 		3FEFE6502625475800A8AA73 /* objective-c-proj */ = {
 			isa = PBXGroup;
 			children = (
+				3FEFE6BA2627E83800A8AA73 /* runloop */,
+				3FEFE6B92627E82700A8AA73 /* runtime */,
+				3FEFE6B82627E81300A8AA73 /* gcd */,
+				3FEFE6B72627E80100A8AA73 /* block */,
 				3FEFE6512625475800A8AA73 /* AppDelegate.h */,
 				3FEFE6522625475800A8AA73 /* AppDelegate.m */,
 				3FEFE6542625475800A8AA73 /* SceneDelegate.h */,
 				3FEFE6552625475800A8AA73 /* SceneDelegate.m */,
 				3FEFE6572625475800A8AA73 /* ViewController.h */,
 				3FEFE6582625475800A8AA73 /* ViewController.m */,
-				3FEFE66B262547C800A8AA73 /* BlockTest.h */,
-				3FEFE66C262547C800A8AA73 /* BlockTest.m */,
-				3FEFE6732626887B00A8AA73 /* GCDTest.h */,
-				3FEFE6742626887B00A8AA73 /* GCDTest.m */,
-				3FEFE6772626943F00A8AA73 /* UserCenter.h */,
-				3FEFE6782626943F00A8AA73 /* UserCenter.m */,
-				3FEFE67B26270CC000A8AA73 /* RunLoopTest.h */,
-				3FEFE67C26270CC000A8AA73 /* RunLoopTest.m */,
 				3FEFE65A2625475800A8AA73 /* Main.storyboard */,
 				3FEFE65D2625475B00A8AA73 /* Assets.xcassets */,
 				3FEFE65F2625475B00A8AA73 /* LaunchScreen.storyboard */,
@@ -94,6 +96,46 @@
 				3FEFE6632625475B00A8AA73 /* main.m */,
 			);
 			path = "objective-c-proj";
+			sourceTree = "<group>";
+		};
+		3FEFE6B72627E80100A8AA73 /* block */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFE66B262547C800A8AA73 /* BlockTest.h */,
+				3FEFE66C262547C800A8AA73 /* BlockTest.m */,
+			);
+			path = block;
+			sourceTree = "<group>";
+		};
+		3FEFE6B82627E81300A8AA73 /* gcd */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFE6772626943F00A8AA73 /* UserCenter.h */,
+				3FEFE6782626943F00A8AA73 /* UserCenter.m */,
+				3FEFE6732626887B00A8AA73 /* GCDTest.h */,
+				3FEFE6742626887B00A8AA73 /* GCDTest.m */,
+			);
+			path = gcd;
+			sourceTree = "<group>";
+		};
+		3FEFE6B92627E82700A8AA73 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFE6B02627E75500A8AA73 /* Mobile.h */,
+				3FEFE6B12627E75500A8AA73 /* Mobile.m */,
+				3FEFE6B32627E75500A8AA73 /* Phone.h */,
+				3FEFE6B22627E75500A8AA73 /* Phone.m */,
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		3FEFE6BA2627E83800A8AA73 /* runloop */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFE67B26270CC000A8AA73 /* RunLoopTest.h */,
+				3FEFE67C26270CC000A8AA73 /* RunLoopTest.m */,
+			);
+			path = runloop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,8 +210,10 @@
 				3FEFE6752626887B00A8AA73 /* GCDTest.m in Sources */,
 				3FEFE6592625475800A8AA73 /* ViewController.m in Sources */,
 				3FEFE6532625475800A8AA73 /* AppDelegate.m in Sources */,
+				3FEFE6B42627E75500A8AA73 /* Mobile.m in Sources */,
 				3FEFE66D262547C800A8AA73 /* BlockTest.m in Sources */,
 				3FEFE6642625475B00A8AA73 /* main.m in Sources */,
+				3FEFE6B52627E75500A8AA73 /* Phone.m in Sources */,
 				3FEFE6562625475800A8AA73 /* SceneDelegate.m in Sources */,
 				3FEFE6792626943F00A8AA73 /* UserCenter.m in Sources */,
 				3FEFE67D26270CC000A8AA73 /* RunLoopTest.m in Sources */,

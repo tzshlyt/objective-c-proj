@@ -22,6 +22,12 @@ int global_var = 4;
 static int static_global_var = 5;
 
 - (void) method {
+    [self method0];
+    [self method1];
+    [self method3];
+}
+
+- (void) method0 {
     // 基本类型的局部变量
     int var = 1;
     

@@ -9,6 +9,7 @@
 #import "BlockTest.h"
 #import "GCDTest.h"
 #import "RunLoopTest.h"
+#import "Phone.h"
 
 @interface ViewController ()
 
@@ -21,13 +22,18 @@
  
     BlockTest *block = [[BlockTest alloc] init];
     [block method];
-    [block method1];
-    [block method3];
     
     GCDTest *gcdTest = [[GCDTest alloc] init];
     [gcdTest test];
     
     [RunLoopTest test];
+    
+    Phone *phone = [[Phone alloc] init];
+    NSLog(@"--- %@",  [[phone superclass] class]);
+//    [phone test];
+    [phone performSelector:@selector(test)];
+    
+    [phone test1];
 }
 
 
