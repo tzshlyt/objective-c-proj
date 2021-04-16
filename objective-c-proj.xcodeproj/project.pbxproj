@@ -20,6 +20,19 @@
 		3FEFE67D26270CC000A8AA73 /* RunLoopTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE67C26270CC000A8AA73 /* RunLoopTest.m */; };
 		3FEFE6B42627E75500A8AA73 /* Mobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6B12627E75500A8AA73 /* Mobile.m */; };
 		3FEFE6B52627E75500A8AA73 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6B22627E75500A8AA73 /* Phone.m */; };
+		3FEFE6BE2628461E00A8AA73 /* BussinissObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6BD2628461E00A8AA73 /* BussinissObject.m */; };
+		3FEFE6C62628753400A8AA73 /* BaseObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6C52628753400A8AA73 /* BaseObjectA.m */; };
+		3FEFE6CB2628754700A8AA73 /* BaseObjectB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6CA2628754700A8AA73 /* BaseObjectB.m */; };
+		3FEFE6CF262875FA00A8AA73 /* ObjectA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6CE262875FA00A8AA73 /* ObjectA1.m */; };
+		3FEFE6D32628760A00A8AA73 /* ObjectA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6D22628760A00A8AA73 /* ObjectA2.m */; };
+		3FEFE6D72628761600A8AA73 /* ObjectB1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6D62628761600A8AA73 /* ObjectB1.m */; };
+		3FEFE6DB2628762200A8AA73 /* ObjectB2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6DA2628762200A8AA73 /* ObjectB2.m */; };
+		3FEFE6DF262876E400A8AA73 /* BridgeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6DE262876E400A8AA73 /* BridgeDemo.m */; };
+		3FEFE6E426287B0F00A8AA73 /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6E326287B0F00A8AA73 /* Target.m */; };
+		3FEFE6E826287B2900A8AA73 /* CoolTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6E726287B2900A8AA73 /* CoolTarget.m */; };
+		3FEFE6ED26287CD200A8AA73 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6EC26287CD200A8AA73 /* Manager.m */; };
+		3FEFE6F326287F4400A8AA73 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6F226287F4400A8AA73 /* Command.m */; };
+		3FEFE6F8262880B200A8AA73 /* CommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEFE6F7262880B200A8AA73 /* CommandManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +60,32 @@
 		3FEFE6B12627E75500A8AA73 /* Mobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mobile.m; sourceTree = "<group>"; };
 		3FEFE6B22627E75500A8AA73 /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
 		3FEFE6B32627E75500A8AA73 /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		3FEFE6BC2628461E00A8AA73 /* BussinissObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BussinissObject.h; sourceTree = "<group>"; };
+		3FEFE6BD2628461E00A8AA73 /* BussinissObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BussinissObject.m; sourceTree = "<group>"; };
+		3FEFE6C42628753400A8AA73 /* BaseObjectA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObjectA.h; sourceTree = "<group>"; };
+		3FEFE6C52628753400A8AA73 /* BaseObjectA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObjectA.m; sourceTree = "<group>"; };
+		3FEFE6C92628754700A8AA73 /* BaseObjectB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObjectB.h; sourceTree = "<group>"; };
+		3FEFE6CA2628754700A8AA73 /* BaseObjectB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObjectB.m; sourceTree = "<group>"; };
+		3FEFE6CD262875FA00A8AA73 /* ObjectA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectA1.h; sourceTree = "<group>"; };
+		3FEFE6CE262875FA00A8AA73 /* ObjectA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectA1.m; sourceTree = "<group>"; };
+		3FEFE6D12628760900A8AA73 /* ObjectA2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectA2.h; sourceTree = "<group>"; };
+		3FEFE6D22628760A00A8AA73 /* ObjectA2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectA2.m; sourceTree = "<group>"; };
+		3FEFE6D52628761600A8AA73 /* ObjectB1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectB1.h; sourceTree = "<group>"; };
+		3FEFE6D62628761600A8AA73 /* ObjectB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectB1.m; sourceTree = "<group>"; };
+		3FEFE6D92628762200A8AA73 /* ObjectB2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectB2.h; sourceTree = "<group>"; };
+		3FEFE6DA2628762200A8AA73 /* ObjectB2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectB2.m; sourceTree = "<group>"; };
+		3FEFE6DD262876E400A8AA73 /* BridgeDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeDemo.h; sourceTree = "<group>"; };
+		3FEFE6DE262876E400A8AA73 /* BridgeDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeDemo.m; sourceTree = "<group>"; };
+		3FEFE6E226287B0F00A8AA73 /* Target.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		3FEFE6E326287B0F00A8AA73 /* Target.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target.m; sourceTree = "<group>"; };
+		3FEFE6E626287B2900A8AA73 /* CoolTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolTarget.h; sourceTree = "<group>"; };
+		3FEFE6E726287B2900A8AA73 /* CoolTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolTarget.m; sourceTree = "<group>"; };
+		3FEFE6EB26287CD200A8AA73 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		3FEFE6EC26287CD200A8AA73 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		3FEFE6F126287F4400A8AA73 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		3FEFE6F226287F4400A8AA73 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		3FEFE6F6262880B200A8AA73 /* CommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandManager.h; sourceTree = "<group>"; };
+		3FEFE6F7262880B200A8AA73 /* CommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +118,7 @@
 		3FEFE6502625475800A8AA73 /* objective-c-proj */ = {
 			isa = PBXGroup;
 			children = (
+				3FEFE6BB262845C000A8AA73 /* design */,
 				3FEFE6BA2627E83800A8AA73 /* runloop */,
 				3FEFE6B92627E82700A8AA73 /* runtime */,
 				3FEFE6B82627E81300A8AA73 /* gcd */,
@@ -136,6 +176,79 @@
 				3FEFE67C26270CC000A8AA73 /* RunLoopTest.m */,
 			);
 			path = runloop;
+			sourceTree = "<group>";
+		};
+		3FEFE6BB262845C000A8AA73 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFE6F026287F2100A8AA73 /* command */,
+				3FEFE6EA26287C3C00A8AA73 /* single */,
+				3FEFE6E126287AF900A8AA73 /* adapter */,
+				3FEFE6C326284DF000A8AA73 /* chain of responsibility */,
+				3FEFE6C126284B1700A8AA73 /* bridge */,
+			);
+			path = design;
+			sourceTree = "<group>";
+		};
+		3FEFE6C126284B1700A8AA73 /* bridge */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFE6C42628753400A8AA73 /* BaseObjectA.h */,
+				3FEFE6C52628753400A8AA73 /* BaseObjectA.m */,
+				3FEFE6CD262875FA00A8AA73 /* ObjectA1.h */,
+				3FEFE6CE262875FA00A8AA73 /* ObjectA1.m */,
+				3FEFE6D12628760900A8AA73 /* ObjectA2.h */,
+				3FEFE6D22628760A00A8AA73 /* ObjectA2.m */,
+				3FEFE6C92628754700A8AA73 /* BaseObjectB.h */,
+				3FEFE6CA2628754700A8AA73 /* BaseObjectB.m */,
+				3FEFE6D52628761600A8AA73 /* ObjectB1.h */,
+				3FEFE6D62628761600A8AA73 /* ObjectB1.m */,
+				3FEFE6D92628762200A8AA73 /* ObjectB2.h */,
+				3FEFE6DA2628762200A8AA73 /* ObjectB2.m */,
+				3FEFE6DD262876E400A8AA73 /* BridgeDemo.h */,
+				3FEFE6DE262876E400A8AA73 /* BridgeDemo.m */,
+			);
+			path = bridge;
+			sourceTree = "<group>";
+		};
+		3FEFE6C326284DF000A8AA73 /* chain of responsibility */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFE6BC2628461E00A8AA73 /* BussinissObject.h */,
+				3FEFE6BD2628461E00A8AA73 /* BussinissObject.m */,
+			);
+			path = "chain of responsibility";
+			sourceTree = "<group>";
+		};
+		3FEFE6E126287AF900A8AA73 /* adapter */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFE6E226287B0F00A8AA73 /* Target.h */,
+				3FEFE6E326287B0F00A8AA73 /* Target.m */,
+				3FEFE6E626287B2900A8AA73 /* CoolTarget.h */,
+				3FEFE6E726287B2900A8AA73 /* CoolTarget.m */,
+			);
+			path = adapter;
+			sourceTree = "<group>";
+		};
+		3FEFE6EA26287C3C00A8AA73 /* single */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFE6EB26287CD200A8AA73 /* Manager.h */,
+				3FEFE6EC26287CD200A8AA73 /* Manager.m */,
+			);
+			path = single;
+			sourceTree = "<group>";
+		};
+		3FEFE6F026287F2100A8AA73 /* command */ = {
+			isa = PBXGroup;
+			children = (
+				3FEFE6F126287F4400A8AA73 /* Command.h */,
+				3FEFE6F226287F4400A8AA73 /* Command.m */,
+				3FEFE6F6262880B200A8AA73 /* CommandManager.h */,
+				3FEFE6F7262880B200A8AA73 /* CommandManager.m */,
+			);
+			path = command;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEFE6CF262875FA00A8AA73 /* ObjectA1.m in Sources */,
 				3FEFE6752626887B00A8AA73 /* GCDTest.m in Sources */,
+				3FEFE6DB2628762200A8AA73 /* ObjectB2.m in Sources */,
+				3FEFE6E826287B2900A8AA73 /* CoolTarget.m in Sources */,
+				3FEFE6DF262876E400A8AA73 /* BridgeDemo.m in Sources */,
+				3FEFE6CB2628754700A8AA73 /* BaseObjectB.m in Sources */,
 				3FEFE6592625475800A8AA73 /* ViewController.m in Sources */,
 				3FEFE6532625475800A8AA73 /* AppDelegate.m in Sources */,
 				3FEFE6B42627E75500A8AA73 /* Mobile.m in Sources */,
@@ -215,8 +333,16 @@
 				3FEFE6642625475B00A8AA73 /* main.m in Sources */,
 				3FEFE6B52627E75500A8AA73 /* Phone.m in Sources */,
 				3FEFE6562625475800A8AA73 /* SceneDelegate.m in Sources */,
+				3FEFE6ED26287CD200A8AA73 /* Manager.m in Sources */,
 				3FEFE6792626943F00A8AA73 /* UserCenter.m in Sources */,
 				3FEFE67D26270CC000A8AA73 /* RunLoopTest.m in Sources */,
+				3FEFE6F8262880B200A8AA73 /* CommandManager.m in Sources */,
+				3FEFE6E426287B0F00A8AA73 /* Target.m in Sources */,
+				3FEFE6BE2628461E00A8AA73 /* BussinissObject.m in Sources */,
+				3FEFE6D32628760A00A8AA73 /* ObjectA2.m in Sources */,
+				3FEFE6F326287F4400A8AA73 /* Command.m in Sources */,
+				3FEFE6C62628753400A8AA73 /* BaseObjectA.m in Sources */,
+				3FEFE6D72628761600A8AA73 /* ObjectB1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
