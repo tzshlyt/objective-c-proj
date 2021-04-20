@@ -30,6 +30,8 @@
     
     Phone *phone = [[Phone alloc] init];
     NSLog(@"--- %@",  [[phone superclass] class]);
+    
+
 //    [phone test];
     [phone performSelector:@selector(test)];
     

@@ -12,7 +12,7 @@
 - (void)handle {
     [super handle];
     // 业务逻辑
-    NSLog(@"objecta1 handle")
+    NSLog(@"objecta1 handle");
 }
 
 @end
